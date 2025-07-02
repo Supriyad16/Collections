@@ -31,6 +31,7 @@ public class BagDTO {
         return cost;
     }
 
+
     public int getCompartments() {
         return compartments;
     }

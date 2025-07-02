@@ -36,7 +36,7 @@ public class Bag {
             System.out.println("Warranty: "+bagDTO.getWarranty());
             System.out.println( " ");
             System.out.println("Type: "+bagDTO.getType());
-            System.out.println( " ");
+            System.out.println( "");
 
 
         }
