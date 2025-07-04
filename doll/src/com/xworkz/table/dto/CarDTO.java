@@ -27,45 +27,6 @@ public class CarDTO {
             this.sunroof = sunroof;
         }
 
-    public String getBrand() {
-        return brand;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public String getFuelType() {
-        return fuelType;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public boolean isAutomatic() {
-        return automatic;
-    }
-
-    public int getMileage() {
-        return mileage;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public int getSeatingCapacity() {
-        return seatingCapacity;
-    }
-
-    public boolean isSunroof() {
-        return sunroof;
-    }
 
     @Override
     public String toString() {
