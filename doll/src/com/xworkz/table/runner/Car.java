@@ -28,8 +28,8 @@ public class Car {
             while (iterator.hasNext()) {
 
                 while (iterator.hasNext()) {
-                    CarDTO car = iterator.next();
-                    System.out.println(car);
+                    CarDTO carDTO = iterator.next();
+                    System.out.println(carDTO);
 
                 }
             }
