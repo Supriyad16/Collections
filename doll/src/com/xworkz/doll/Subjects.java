@@ -30,7 +30,7 @@ public class Subjects {
         subject.add("HTML");
         subject.add("CSS");
         subject.add("JavaScript");
-        subject.add("Pyhton");
+        subject.add("Python");
         subject.add("React");
         subject.add("Node");
         subject.add("SQL");

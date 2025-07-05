@@ -25,7 +25,7 @@ public class Jewelery {
 
         jewelery.clear();
 
-        System.out.println("There are the "+jewelery.size()+ " types of jewelery after claer");
+        System.out.println("There are the "+jewelery.size() + " types of jewelery after claer");
 
         jewelery.add("Armlet");
         jewelery.add("Jumka");

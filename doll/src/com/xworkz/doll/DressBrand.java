@@ -21,7 +21,6 @@ public class DressBrand {
 
         System.out.println("The number of Dress Brands are "+dressBrand.size());
 
-
         dressBrand.clear();
 
         System.out.println("The number of Dress Brands are after clear "+dressBrand.size());

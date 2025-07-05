@@ -39,6 +39,5 @@ public class Dress {
 
         System.out.println("These are "+dress.size()+" types af dress are there");
 
-
     }
 }
