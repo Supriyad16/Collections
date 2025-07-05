@@ -13,8 +13,7 @@ public class MobileDTO {
         private String color;
         private int year;
 
-        public MobileDTO(String brand, String model, double price, int ram, int storage,
-                         String processor, boolean fiveG, int battery, String color, int year) {
+        public MobileDTO(String brand, String model, double price, int ram, int storage, String processor, boolean fiveG, int battery, String color, int year) {
             this.brand = brand;
             this.model = model;
             this.price = price;

@@ -30,7 +30,6 @@ public class Car {
                 while (iterator.hasNext()) {
                     CarDTO carDTO = iterator.next();
                     System.out.println(carDTO);
-
                 }
             }
         }

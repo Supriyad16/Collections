@@ -13,8 +13,7 @@ public class StudentDTO {
         private String contactNumber;
         private boolean hosteler;
 
-        public StudentDTO(String name, int age, String course, String college, double percentage,
-                          boolean scholarship, String city, int yearOfStudy, String contactNumber, boolean hosteler) {
+        public StudentDTO(String name, int age, String course, String college, double percentage, boolean scholarship, String city, int yearOfStudy, String contactNumber, boolean hosteler) {
             this.name = name;
             this.age = age;
             this.course = course;

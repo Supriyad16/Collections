@@ -22,6 +22,7 @@ public class Mobile {
             mobiles.add(new MobileDTO("Asus", "ROG Phone 6", 71999.0, 12, 256, "Snapdragon 8+ Gen 1", true, 6000, "Black", 2022));
             mobiles.add(new MobileDTO("Nothing", "Phone (1)", 32999.0, 8, 128, "Snapdragon 778G+", true, 4500, "White", 2022));
 
+
             Iterator<MobileDTO> iterator = mobiles.iterator();
             while (iterator.hasNext()) {
                 MobileDTO mobileDTO = iterator.next();

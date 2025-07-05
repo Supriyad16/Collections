@@ -13,8 +13,7 @@ public class CarDTO {
         private int seatingCapacity;
         private boolean sunroof;
 
-        public CarDTO(String brand, String model, String fuelType, double price, boolean automatic,
-                      int mileage, String color, int year, int seatingCapacity, boolean sunroof) {
+        public CarDTO(String brand, String model, String fuelType, double price, boolean automatic, int mileage, String color, int year, int seatingCapacity, boolean sunroof) {
             this.brand = brand;
             this.model = model;
             this.fuelType = fuelType;

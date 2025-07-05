@@ -23,6 +23,7 @@ public class Student {
             students.add(new StudentDTO("Vikram", 20, "BA", "St. Joseph's", 84.1, true, "Belgaum", 2, "9654321876", true));
             students.add(new StudentDTO("Kavya", 21, "B.Tech", "MIT", 87.5, false, "Manipal", 4, "9543217689", false));
 
+
             Iterator<StudentDTO> iterator = students.iterator();
             while (iterator.hasNext()) {
                 StudentDTO studentDTO = iterator.next();
