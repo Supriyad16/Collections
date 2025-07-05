@@ -20,7 +20,7 @@ public class BagDTO {
     }
 
     public String getBrand() {
-        return brand;
+        return brand ;
     }
 
     public String getColour() {
@@ -30,7 +30,6 @@ public class BagDTO {
     public int getCost() {
         return cost;
     }
-
 
     public int getCompartments() {
         return compartments;
@@ -43,7 +42,5 @@ public class BagDTO {
     public String getType() {
         return type;
     }
-
-
 
 }

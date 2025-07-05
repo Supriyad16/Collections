@@ -49,4 +49,5 @@ public class MovieDTO {
     public float getRating() {
         return rating;
     }
+
 }

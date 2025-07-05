@@ -10,6 +10,7 @@ public class BookDTO {
     private int year;
     private String language;
 
+
     public BookDTO(String title, String author, String publisher, int price, String genre, int year, String language) {
         this.title = title;
         this.author = author;
@@ -19,6 +20,7 @@ public class BookDTO {
         this.year = year;
         this.language = language;
     }
+
 
     public String getTitle() {
         return title;

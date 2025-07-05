@@ -36,6 +36,7 @@ public class Movie {
             System.out.println("Year: "+movieDTO.getYear());
             System.out.println("Duration: "+movieDTO.getDuration());
             System.out.println("Rating: "+movieDTO.getRating());
+
         }
     }
 }

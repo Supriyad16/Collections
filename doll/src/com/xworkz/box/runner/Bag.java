@@ -22,9 +22,12 @@ public class Bag {
         bag.add(new BagDTO("HRX", "Maroon", 1550, 4, 2, "College"));
         bag.add(new BagDTO("Adidas", "Yellow", 1900, 2, 2, "Gym"));
 
+
+        System.out.println("The number od Bag type are "+bag.size());
+
+
         for(BagDTO bagDTO :bag){
 
-          //  System.out.println("The number od Bag type are "+bag.size());
             System.out.println("Brands: "+bagDTO.getBrand());
             System.out.println( " ");
             System.out.println("Colur: "+bagDTO.getColour());
@@ -36,7 +39,7 @@ public class Bag {
             System.out.println("Warranty: "+bagDTO.getWarranty());
             System.out.println( " ");
             System.out.println("Type: "+bagDTO.getType());
-            System.out.println( "");
+            System.out.println( " ");
 
 
         }
