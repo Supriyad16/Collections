@@ -28,7 +28,7 @@ public class Book {
 
         System.out.println("The number of books are "+book.size());
 
-        for (BookDTO bookDTO :book) {
+        for (BookDTO bookDTO:book) {
 
 
             System.out.println("Book Title: " +bookDTO.getTitle());

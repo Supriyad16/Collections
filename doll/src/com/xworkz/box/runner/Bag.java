@@ -30,7 +30,7 @@ public class Bag {
 
             System.out.println("Brands: "+bagDTO.getBrand());
             System.out.println( " ");
-            System.out.println("Colur: "+bagDTO.getColour());
+            System.out.println("Colour: "+bagDTO.getColour());
             System.out.println( " ");
             System.out.println("Cost: "+bagDTO.getCost());
             System.out.println( " ");

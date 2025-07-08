@@ -27,7 +27,7 @@ public class Movie {
 
         System.out.println("The number of movies are "+movie.size());
 
-        for(MovieDTO movieDTO: movie){
+        for(MovieDTO movieDTO:movie){
 
             System.out.println("Title: "+movieDTO.getTitle());
             System.out.println("Director: "+movieDTO.getDirector());
