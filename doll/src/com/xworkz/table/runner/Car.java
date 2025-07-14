@@ -22,7 +22,7 @@ public class Car {
             cars.add(new CarDTO("MG", "Hector", "Petrol", 1600000, true, 14, "Black", 2023, 5, true));
             cars.add(new CarDTO("Skoda", "Slavia", "Petrol", 1350000, true, 16, "Blue", 2022, 5, false));
             cars.add(new CarDTO("Ford", "Ecosport", "Diesel", 1000000, false, 19, "Brown", 2021, 5, false));
-            cars.add(new CarDTO("Mahindra", "XUV700", "Diesel", 2000000, true, 15, "Silver", 2023, 7, true));
+            cars.add(new CarDTO(" Mahindra", "XUV700", "Diesel", 2000000, true, 15, "Silver", 2023, 7, true));
 
             Iterator<CarDTO> iterator = cars.iterator();
             while (iterator.hasNext()) {
@@ -34,4 +34,3 @@ public class Car {
             }
         }
     }
-
