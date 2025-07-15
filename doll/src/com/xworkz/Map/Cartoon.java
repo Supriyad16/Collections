@@ -2,9 +2,6 @@ package com.xworkz.Map;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.BiConsumer;
-
-import static javafx.scene.input.KeyCode.S;
 
 public class Cartoon {
 
@@ -33,7 +30,7 @@ public class Cartoon {
 //        cartoon.forEach((S,F)->(Sout))
 
         }
-        }
+}
 
 
 
