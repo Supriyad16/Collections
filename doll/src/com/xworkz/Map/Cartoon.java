@@ -2,6 +2,9 @@ package com.xworkz.Map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.BiConsumer;
+
+import static javafx.scene.input.KeyCode.S;
 
 public class Cartoon {
 
@@ -21,6 +24,16 @@ public class Cartoon {
 
         System.out.println(cartoon.get("Dora"));
 
-    }
+        System.out.println(cartoon);
 
-}
+//        for(Map.Entry<String,String> entry:cartoon.entrySet()){
+//            System.out.println(entry.getKey()+" -> " +entry.getValue());
+//        }
+
+//        cartoon.forEach((S,F)->(Sout))
+
+        }
+        }
+
+
+
