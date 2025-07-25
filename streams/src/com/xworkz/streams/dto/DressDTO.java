@@ -14,4 +14,5 @@ public class DressDTO {
     private String type;
     private String material;
     private int cost;
+
 }
