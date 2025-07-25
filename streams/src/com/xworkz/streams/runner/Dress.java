@@ -22,6 +22,7 @@ public class Dress {
         dressDTOS.add(new DressDTO("hoodie", "fleece", 1200));
         dressDTOS.add(new DressDTO("shorts", "nylon", 300));
 
+
         dressDTOS.stream().filter(e -> e.getMaterial().equalsIgnoreCase("leather")).forEach(n-> System.out.println(n));
         System.out.println("---- *** ----");
         dressDTOS.stream().filter(n->n.getType().startsWith("h")).forEach(p-> System.out.println(p));
